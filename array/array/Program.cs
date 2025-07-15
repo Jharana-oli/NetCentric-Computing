@@ -6,7 +6,7 @@ namespace array
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Employee Skill Tracker\n");
+            Console.WriteLine("---Employee Skill Tracker---\n");
 
             string[][] employeeSkills = new string[3][];
             employeeSkills[0] = new string[] { "AWS", "SQL", "Docker" };
