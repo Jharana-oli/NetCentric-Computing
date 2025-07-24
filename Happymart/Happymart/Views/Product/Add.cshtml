@@ -1,0 +1,18 @@
+﻿@model Happymart.Models.Product
+
+<h1>Add Product</h1>
+
+<form asp-action="Add" method="post">
+    <div>
+        <label>Name</label>
+        <input asp-for="name" type="text" name="name" />
+        <span asp-validation-for="name" style="color:red"></span>
+        <label>Price</label>
+        <input type="number" name="price" />
+
+        <label>Category</label>
+        <input type="text" name="category" />
+
+        <button type="submit">Add Product</button>
+    </div>
+</form>
